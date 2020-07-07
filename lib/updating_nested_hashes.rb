@@ -7,7 +7,7 @@ def update_status
          :hero_friends => [
             {name: "Benvolio", age: "17", attitude: "worried"},
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
-         ]epic_tragedy[:montague][:hero][status:] = "dead"
+         ]puts epic_tragedy[:montague][:hero][status:] = "dead"
       },
       :capulet => {
          :patriarch => {name: "Lord Capulet", age: "50"},
@@ -16,10 +16,10 @@ def update_status
          :heroine_friends => [
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
-         ]epic_tragedy[:capulet][:heroine][status:] = "dead"
+         ]puts epic_tragedy[:capulet][:heroine][status:] = "dead"
       }
    }
-   
+  
    
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
@@ -31,6 +31,7 @@ def update_status
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
 end
+update_status
 
 def add_characters
    epic_tragedy = {
