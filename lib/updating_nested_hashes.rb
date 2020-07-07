@@ -7,7 +7,7 @@ def update_status
          :hero_friends => [
             {name: "Benvolio", age: "17", attitude: "worried"},
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
-         ]
+         ]epic_tragedy[:montague][:hero][status:] = "dead"
       },
       :capulet => {
          :patriarch => {name: "Lord Capulet", age: "50"},
@@ -19,6 +19,8 @@ def update_status
          ]
       }
    }
+   
+   
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
