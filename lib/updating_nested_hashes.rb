@@ -18,8 +18,8 @@ def update_status
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       }
-   }puts epic_tragedy[:montague][:hero][status:] = "dead"
-   puts epic_tragedy[:capulet][:heroine][status:] = "dead"
+   }puts epic_tragedy[:montague][:hero][:status] = "dead"
+   puts epic_tragedy[:capulet][:heroine][:status] = "dead"
   
    
 
